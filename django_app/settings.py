@@ -68,7 +68,6 @@ WSGI_APPLICATION = 'django_app.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
 
-[label django_app/settings.py]
 if DEVELOPMENT_MODE is True:
     DATABASES = {
         "default": {
